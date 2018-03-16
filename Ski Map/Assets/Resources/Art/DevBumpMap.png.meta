@@ -1,0 +1,807 @@
+fileFormatVersion: 2
+guid: a8d0be8b6caada04c930b891ccb0ce79
+timeCreated: 1519303669
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DevBumpMap_0
+    21300002: DevBumpMap_1
+    21300004: DevBumpMap_2
+    21300006: DevBumpMap_3
+    21300008: DevBumpMap_4
+    21300010: DevBumpMap_5
+    21300012: DevBumpMap_6
+    21300014: DevBumpMap_7
+    21300016: DevBumpMap_8
+    21300018: DevBumpMap_9
+    21300020: DevBumpMap_10
+    21300022: DevBumpMap_11
+    21300024: DevBumpMap_12
+    21300026: DevBumpMap_13
+    21300028: DevBumpMap_14
+    21300030: DevBumpMap_15
+    21300032: DevBumpMap_16
+    21300034: DevBumpMap_17
+    21300036: DevBumpMap_18
+    21300038: DevBumpMap_19
+    21300040: DevBumpMap_20
+    21300042: DevBumpMap_21
+    21300044: DevBumpMap_22
+    21300046: DevBumpMap_23
+    21300048: DevBumpMap_24
+    21300050: DevBumpMap_25
+    21300052: DevBumpMap_26
+    21300054: DevBumpMap_27
+    21300056: DevBumpMap_28
+    21300058: DevBumpMap_29
+    21300060: DevBumpMap_30
+    21300062: DevBumpMap_31
+    21300064: DevBumpMap_32
+    21300066: DevBumpMap_33
+    21300068: DevBumpMap_34
+    21300070: DevBumpMap_35
+    21300072: DevBumpMap_36
+    21300074: DevBumpMap_37
+    21300076: DevBumpMap_38
+    21300078: DevBumpMap_39
+    21300080: DevBumpMap_40
+    21300082: DevBumpMap_41
+    21300084: DevBumpMap_42
+    21300086: DevBumpMap_43
+    21300088: DevBumpMap_44
+    21300090: DevBumpMap_45
+    21300092: DevBumpMap_46
+    21300094: DevBumpMap_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DevBumpMap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_1
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_2
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_3
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_4
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_5
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_6
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_7
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 1880
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_10
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_11
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_12
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_13
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_14
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_15
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 1504
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_18
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_19
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_20
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_21
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_22
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_23
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 1128
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_25
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_26
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_27
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_28
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_29
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_30
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_31
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 752
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_33
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_34
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_35
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_36
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_37
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_38
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_39
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 376
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_41
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_42
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_43
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_44
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_45
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_46
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DevBumpMap_47
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 0
+        width: 411.25
+        height: 376
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

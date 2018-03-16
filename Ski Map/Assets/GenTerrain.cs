@@ -16,20 +16,24 @@ public class GenTerrain : MonoBehaviour
     public Material rendererMat;
 
     public Texture2D bump;
+	
+	public int vertsX;
+	public int vertsY;
+    public float factorZ;
 
     private void Awake()
     {
         mRenderer = GetComponent<MeshRenderer>();
         mFilter = GetComponent<MeshFilter>();
 
-        BuildMesh();
-        BuildTxr();
+        
+        //BuildTxr();
     }
 
     // Use this for initialization
     void Start()
     {
-
+        BuildMesh();
     }
 
     // Update is called once per frame
@@ -51,8 +55,8 @@ public class GenTerrain : MonoBehaviour
     {
         ChunkMesh = new Mesh();
 
-        sizeX = 256;
-        sizeY = 144;
+        sizeX = vertsX - 1;
+        sizeY = vertsY - 1;
 
         int vSizeX = sizeX + 1;
         int vSizeY = sizeY + 1;
@@ -66,13 +70,18 @@ public class GenTerrain : MonoBehaviour
         Vector3[] normals = new Vector3[numVerts];
         Vector2[] uv = new Vector2[numVerts];
 
+        float factorX = inputMat.GetTexture("_MainTex").width / vertsX;
+        float factorY = inputMat.GetTexture("_MainTex").height / vertsY;
+
         for (int y = 0; y < vSizeY; y++)
         {
             for (int x = 0; x < vSizeX; x++)
             {
-                float val = bump.GetPixel((int)(x * 7.5f), (int)(y * 7.5f)).r;
-                float ival = 1f - bump.GetPixel((int)(x * 7.5f), (int)(y * 7.5f)).r;
-                verts[(y * vSizeX) + x] = new Vector3((x / 5f) * 3f, (y / 5f) * 3f, (y / 4.5f + (val * 4.5f)) * 3f);
+                float val = bump.GetPixel((int)(x), (int)(y)).r;
+                val = SmoothVal(x, y);
+                float ival = 1f - bump.GetPixel((int)(x * factorX), (int)(y * factorY)).r;
+
+                verts[(y * vSizeX) + x] = new Vector3((x / 2f), (y / 2f), (val * factorZ));
                 normals[(y * vSizeX) + x] = Vector3.back;
                 uv[(y * vSizeX) + x] = new Vector2((float)x / (float)sizeX, (float)y / (float)sizeY);
             }
@@ -104,8 +113,44 @@ public class GenTerrain : MonoBehaviour
         mCollider.sharedMesh = ChunkMesh;
     }
 
-    void BuildTxr()
+    public float SmoothVal(int X, int Y)
+    {
+        List<float> valsX = new List<float>();
+        List<float> valsY = new List<float>();
+
+        Vector2Int dims = new Vector2Int(bump.width, bump.height);
+
+        if (Y + 1 < dims.y - 1)
+            valsY.Add(bump.GetPixel(X, Y + 1).r);
+        else
+            valsY.Add(bump.GetPixel(X, Y).r);
+        if (Y - 1 > 0)
+            valsY.Add(bump.GetPixel(X, Y - 1).r);
+        else
+            valsY.Add(bump.GetPixel(X, Y).r);
+
+        if (X + 1 < dims.x - 1)
+            valsX.Add(bump.GetPixel(X + 1, Y).r);
+        else
+            valsX.Add(bump.GetPixel(X, Y).r);
+        if (X - 1 > 0)
+            valsX.Add(bump.GetPixel(X - 1, Y).r);
+        else
+            valsX.Add(bump.GetPixel(X, Y).r);
+
+
+
+        float lX = Mathf.Min(valsX[0], valsX[1]) + (Mathf.Abs(valsX[0] - valsX[1]) / 2);
+        float lY = Mathf.Min(valsY[0], valsY[1]) + (Mathf.Abs(valsY[0] - valsY[1]) / 2);
+
+        float lerped = Mathf.Min(lX, lY) + (Mathf.Abs(lX - lY) / 2);
+
+        return lerped;
+    }
+
+    public void BuildTxr()
     {
         mRenderer.material = new Material(inputMat);
+        rendererMat = mRenderer.material;
     }
 }
