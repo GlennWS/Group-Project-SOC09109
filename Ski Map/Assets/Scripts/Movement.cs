@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour {
 		//rigidbody.angularVelocity *= friction
 		if (Input.GetAxis ("Horizontal") != 0f) {
 			rb2d.drag = 1;
-			rb2d.AddForce (movement * speed);
+			rb2d.AddForce (movement * speed * 3);
 		} else if (Input.GetAxis ("Vertical") != 0f) {
 			rb2d.drag = 0;
 			rb2d.AddForce (movement * (speed / 2f));
