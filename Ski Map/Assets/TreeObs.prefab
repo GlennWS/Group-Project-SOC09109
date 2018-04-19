@@ -64,10 +64,10 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713331677171156}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2674408, y: 10.8, z: 0.019723505}
+  m_Size: {x: 3.267441, y: 10.8, z: 0.019723505}
   m_Center: {x: -0.3378067, y: 5.4, z: 0.09013824}
 --- !u!212 &212998728874075736
 SpriteRenderer:

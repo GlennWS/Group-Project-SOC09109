@@ -15,10 +15,10 @@ public class Colision : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        lefleg = GameObject.Find("Stick Man Rag/Bone015");
-        RightLeg = GameObject.Find("Stick Man Rag/Bone012");
-        lefski = GameObject.Find("Stick Man Rag/Bone012/Bone013/Bone014/left skii");
-        Rightski = GameObject.Find("Stick Man Rag/Bone015/Bone016/Bone017/right skii");
+        lefleg = GameObject.Find("Ski man/Bone015");
+        RightLeg = GameObject.Find("Ski man/Bone012");
+        lefski = GameObject.Find("Ski man/Bone012/Bone013/Bone014/left skii");
+        Rightski = GameObject.Find("Ski man/Bone015/Bone016/Bone017/right skii");
         time = GameObject.Find("Canvas/Time");
         Restart = GameObject.Find("Canvas/Button");
         Restart.SetActive(false);
@@ -27,7 +27,7 @@ public class Colision : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.tag == "Tree")
        {
@@ -41,11 +41,16 @@ public class Colision : MonoBehaviour {
             ridRightski.constraints = RigidbodyConstraints.None;
             time.GetComponent<timer>().Crash();
             Restart.SetActive(true);
+			
         }
         if(collision.gameObject.tag == "Finish")
         {
             time.GetComponent<timer>().finish();
-
+			Application.Quit();
+        }
+        if(collision.gameObject.tag == "gate")
+        {
+            //Stub for points should be sent to UI
         }
 
     }

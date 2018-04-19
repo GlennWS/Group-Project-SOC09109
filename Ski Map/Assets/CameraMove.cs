@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour {
 
-    public GameObject playerObj;
+    GameObject playerObj;
     Vector3 cammeraOffSet;
 	// Use this for initialization
 	void Start () {
-        //playerObj = GameObject.Find("Stick Man Rag/Bone002");
+        playerObj = GameObject.Find("Ski man/Bone002");
         cammeraOffSet = new Vector3(-1,-6,-50);
 	}
 	

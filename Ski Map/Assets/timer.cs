@@ -6,20 +6,20 @@ using UnityEngine.UI;
 //Callum Galbraith
 //06.04.18
 public class timer : MonoBehaviour {
-    public Text text;
+    Text text;
     GameObject Restart;
     float time;
     public float speed = 1;
 	// Use this for initialization
 	void Start () {
-        //text = GetComponent<Text>();
+        text = GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         time += Time.deltaTime * speed;
-        text.text = "time: " + Mathf.Round(time * 100f) / 100f;
-    }
+        text.text = (time % 60).ToString();
+	}
     public void finish()
     {
         this.enabled = false;
