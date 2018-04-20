@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
     {
         if (rb2d.velocity.magnitude > maxSpeed)
         {
-            rb2d.velocity = rb2d.velocity.normalized * maxSpeed;
+            rb2d.velocity = Vector3.ClampMagnitude(rb2d.velocity, maxSpeed);
         }
         //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
         int horizontal = 0;     //Used to store the horizontal move direction.          
