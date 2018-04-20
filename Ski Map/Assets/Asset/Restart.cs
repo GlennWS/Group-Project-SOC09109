@@ -10,6 +10,6 @@ public class Restart : MonoBehaviour {
     public Button ButRestart;
 
 	public void TaskOnClick() {
-        SceneManager.LoadScene("123");
+        SceneManager.LoadScene("TestScene");
     }
 }
