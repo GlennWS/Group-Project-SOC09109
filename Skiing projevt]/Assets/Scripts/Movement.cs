@@ -19,7 +19,7 @@ public class Movement : MonoBehaviour
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
-    void FixedUpdate()
+    void Update()
     {
         if (rb2d.velocity.magnitude > maxSpeed)
         {
@@ -28,8 +28,8 @@ public class Movement : MonoBehaviour
         //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
         int horizontal = 0;     //Used to store the horizontal move direction.          
                                 //Get input from the input manager, round it to an integer and store in horizontal to set x axis move direction
-        float MoveHorizontal = Input.GetAxisRaw("Horizontal");
-        Vector2 movement = new Vector2(MoveHorizontal, 0);
+                                //float MoveHorizontal = Input.GetAxisRaw("Horizontal");
+        Vector2 movement = new Vector2(horizontal, 0);
         //Check if Input has registered more than zero touches
         if (Input.touchCount > 0)
         {
@@ -53,21 +53,15 @@ public class Movement : MonoBehaviour
                 //Set touchOrigin.x to -1 so that our else if statement will evaluate false and not repeat immediately.
                 touchOrigin.x = -1;
                 //Check if the difference along the x axis is greater than along the y axis.
-                if (Mathf.Abs(x) > Mathf.Abs(y))
-                    //If x is greater than zero, set horizontal to 1, otherwise set it to -1
-                    horizontal = x > 0 ? 1 : -1;
+                /* if (Mathf.Abs(x) > Mathf.Abs(y)) {
+                     //If x is greater than zero, set horizontal to 1, otherwise set it to -1
+                     horizontal = x > 0 ? 1 : -1;
+                 }           */
+                rb2d.drag = 0.5f;
+                // rb2d.mass = 2.0f;
+                rb2d.AddForce(new Vector2(x * speed * Time.deltaTime, 0));
             }
         }
-        //Check if we have a non-zero value for horizontal or vertical
-        if (horizontal != 0)
-        {
-            rb2d.drag = 0.5f;
-            rb2d.AddForce(movement * speed);
-        }
-        else
-        {
-            rb2d.drag = 0;
-            rb2d.AddForce(movement * speed);
-        }
+        rb2d.drag = 0;
     }
 }
