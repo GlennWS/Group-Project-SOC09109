@@ -52,11 +52,6 @@ public class Movement : MonoBehaviour
                 float y = touchEnd.y - touchOrigin.y;
                 //Set touchOrigin.x to -1 so that our else if statement will evaluate false and not repeat immediately.
                 touchOrigin.x = -1;
-                //Check if the difference along the x axis is greater than along the y axis.
-                /* if (Mathf.Abs(x) > Mathf.Abs(y)) {
-                     //If x is greater than zero, set horizontal to 1, otherwise set it to -1
-                     horizontal = x > 0 ? 1 : -1;
-                 }           */
                 rb2d.drag = 0.5f;
                 // rb2d.mass = 2.0f;
                 rb2d.AddForce(new Vector2(x * speed * Time.deltaTime, 0));
